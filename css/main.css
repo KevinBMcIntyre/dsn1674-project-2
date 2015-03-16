@@ -5,3 +5,88 @@ html{
 *, *::before, *::after{
 	box-sizing: inherit;
 }
+body {
+	margin: 0;
+}
+
+header {
+  background-color: #e7001d;
+	padding-top: 1rem;
+	color: white;
+	position: relative;
+	text-align: center;
+	padding-bottom: 1em;
+}
+header img {
+	width: 65px;
+	position: absolute;
+	left: calc(50% - 32.5px);
+}
+header h1 {
+	margin: 0;
+  position: relative;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+header h2 {
+	font-size: 10px;
+  position: relative;
+  top: -5px;
+  text-align: center;
+  margin: 0;
+  text-shadow: 1px 1px 5px black;
+}
+
+.banner{
+	position: relative;
+	clear: left;
+	width: 100%;
+}
+
+.banner img{
+	width: 100%;
+	display: block;
+}
+
+.banner h1{
+	position: absolute;
+	bottom: .3em;
+	text-align: center;
+	width: 100%;
+	color: white;
+	font-style: italic;
+ 	text-shadow: 1px 1px 5px black;
+}
+.dragon img {
+	width: 40%;
+	float: left;
+	margin-left: 6.5%;
+}
+.dragon {
+	background-color: #e4c22a;
+	padding: .5em;
+	text-align: center;
+}
+.dragon p {
+	 clear: left;
+  font-style: italic;
+  font-size: 11px;
+}
+nav li {
+	background-color: #000000;
+	display: inline;
+	width: 50%;
+	float: left;
+	padding: .5em;
+}
+nav ol {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+main p{
+	margin: 1em .5em;
+}
