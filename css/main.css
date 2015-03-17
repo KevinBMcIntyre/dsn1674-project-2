@@ -8,14 +8,12 @@ html{
 body {
 	margin: 0;
 }
-
 header {
   background-color: #e7001d;
-	padding-top: 1rem;
+	padding: 1rem 0;
 	color: white;
 	position: relative;
 	text-align: center;
-	padding-bottom: 1em;
 }
 header img {
 	width: 65px;
@@ -36,18 +34,15 @@ header h2 {
   margin: 0;
   text-shadow: 1px 1px 5px black;
 }
-
 .banner{
 	position: relative;
 	clear: left;
 	width: 100%;
 }
-
 .banner img{
 	width: 100%;
 	display: block;
 }
-
 .banner h1{
 	position: absolute;
 	bottom: .3em;
@@ -63,11 +58,15 @@ nav li {
 	width: 50%;
 	float: left;
 	padding: .5em;
-	border: 1px solid black;
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
 }
 nav ol {
 	margin: 0;
 	padding: 0;
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	overflow: hidden;
 }
 a {
 	text-decoration: none;
